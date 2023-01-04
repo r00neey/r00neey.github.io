@@ -1,23 +1,4 @@
 *{
     margin: auto;
-}
-
-.uvodni_stranka{
-    background-color: rgb(40,44,51);
-    #border: white 5px solid;
-}
-
-main{
-    #border: 2px solid black;
-    width: 1366px;
-    height: 3192px;
-    background-color: rgb(44,48,54);
-}
-
-menu{
-    width: 1024px;
-}
-
-p{
-    font-size: 40px;
+    background-color: beige;
 }
