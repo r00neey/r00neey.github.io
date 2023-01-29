@@ -35,3 +35,13 @@ function pokusna_funkce(cislo){
 }
 
 console.log(pokusna_funkce(6))
+
+function ahoj3(number){
+    console.log(352)
+    let cislo, vysledek
+    cislo = 32
+    vysledek = number/cislo
+    return vysledek
+}
+
+console.log(ahoj3(165))
