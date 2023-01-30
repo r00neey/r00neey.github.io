@@ -1,23 +1,9 @@
-*{
-    margin: auto;
-    background-color: #d3d3d3;
+body{
+    position: absolute;
+    width: 1920px;
+    height: 2160px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, #53658F 50.98%, rgba(154, 75, 93, 0.35) 100%);
 }
-
-.formular{
-    text-align: center;
-    height: auto;
-}
-
-ul{
-    list-style-type: none;
-}
-
-li{
-    padding: 0.5%;
-}
-
-input{
-    font-size: 200%;
-}
-
 
