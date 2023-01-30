@@ -1,3 +1,8 @@
+/*
+id = #
+class = .
+*/
+
 body{
     position: absolute;
     width: 1920px;
@@ -7,3 +12,28 @@ body{
     background: linear-gradient(180deg, #53658F 50.98%, rgba(154, 75, 93, 0.35) 100%);
 }
 
+#logo_nahore{
+    position: absolute;
+    width: 166px;
+    height: 164px;
+    left: 30px;
+    top: 18px;
+}
+
+#text_vedle_loga{
+        position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 196px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 0%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
