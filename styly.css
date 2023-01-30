@@ -12,7 +12,7 @@ body{
     background: linear-gradient(180deg, #53658F 50.98%, rgba(154, 75, 93, 0.35) 100%);
 }
 
-#logo_nahore{
+.logo_nahore{
     position: absolute;
     width: 166px;
     height: 164px;
@@ -20,8 +20,8 @@ body{
     top: 18px;
 }
 
-#text_vedle_loga{
-        position: absolute;
+.text_vedle_loga{
+    position: absolute;
     width: 400px;
     height: 200px;
     left: 196px;
