@@ -102,3 +102,12 @@ li{
     letter-spacing: 0.1em;
 }
 
+main{
+    height: auto;
+    width: 75%;
+    border: white 3px solid;
+    margin-top: 80px;
+    padding: 25px 25px 25px 25px;
+    margin-left: 11%;
+    font-size: 30px;
+}
