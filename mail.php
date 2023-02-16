@@ -1,2 +1,2 @@
 <?php
-echo "ahoj";
+print "ahoj";
