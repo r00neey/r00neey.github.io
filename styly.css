@@ -1,113 +1,66 @@
-/*
-id = #
-class = .
-*/
-
 *{
-    margin: 0;
-    padding: 0;
-}
-
-body::-webkit-scrollbar{
-    display:none;
+    width: auto;
+    margin: auto;
 }
 
 body{
-    background: linear-gradient(180deg, #53658F 50.98%, rgba(154, 75, 93, 0.35) 100%);
-    height: 2160px;
-    left: 0px;
-    top: 0px;
+    background-color: white;
 }
 
-
-nav{
-    position: absolute;
-    width: 100%;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-    background: #000000;
-    font-family: Verdana, Tahoma, sans-serif;
-}    
-
-#logo{
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    left: 30px;
-    top: 5px;
-}
-
-.sixgames{
-    position: absolute;
-    width: 400px;
-    height: 75px;
-    left: 196px;
-    color: #C6A25F;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 0%;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.1em;
+h1{
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
     text-align: center;
-}
-
-li{
+    border: 2px solid grey;
+    background-color: black;
     color: white;
-    list-style-type: none;
-    display: inline-block;
 }
 
-#menu_prvni{
-    position: absolute;
-    width: 400px;
-    height: 75px;
-    left: 600px;
-    top: 0px;
-    font-size: 28px;
-    line-height: 0%;
-    display: flex;
-    align-items: center;
+form{
+    /*border: 2px solid black;*/
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 2.5%;
     text-align: center;
-    letter-spacing: 0.1em;
+    display: table;
+    -webkit-box-shadow: 10px 10px 33px 10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 33px 10px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 33px 10px rgba(0,0,0,0.75);
+    background-color: grey;
+    border-radius: 30px;
 }
 
-#menu_druhe{
-    position: absolute;
-    width: 400px;
-    height: 75px;
-    left: 850px;
-    top: 0px;
-    font-size: 28px;
-    line-height: 0%;
-    display: flex;
-    align-items: center;
+input{
+    /*border: 2px solid blue;*/
+    margin: 1%;
+    padding: 1%;
     text-align: center;
-    letter-spacing: 0.1em;
+    font-size: 24px;
 }
 
-#menu_treti{
-    position: absolute;
-    width: 400px;
-    height: 75px;
-    left: 1050px;
-    top: 0px;
-    font-size: 28px;
-    line-height: 0%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.1em;
+/* BUTTON */
+
+button {
+    transition: all 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
+    background-color: black;
+    border: 2px solid #111;
+    font-size: 24px;
+    margin-top: 1%;
 }
 
-main{
-    height: auto;
-    width: 75%;
-    border: white 3px solid;
-    margin-top: 80px;
-    padding: 25px 25px 25px 25px;
-    margin-left: 11%;
-    font-size: 30px;
+button h4 {
+    color: white;
+    font-weight: 600;
+}
+  
+button:hover {
+    border: 2px solid #111;
+    box-shadow: 0px 0px 15px 3px black;
+    background-color: white;
+}
+  
+button:hover h4 {
+    color: black;
 }
